@@ -2,7 +2,8 @@
 cmake_minimum_required(VERSION 3.13)
 
 # Set the Pico SDK path (adjust if necessary)
-set(PICO_SDK_PATH "/home/ericr/git/pico-sdk")
+set(PICO_SDK_PATH "../pico-sdk")
+set(PICOTOOL_FETCH_FROM_GIT_PATH "..")
 
 # Include the Pico SDK import script
 include(pico_sdk_import.cmake)
